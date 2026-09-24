@@ -124,9 +124,9 @@
     border:1px solid var(--line);
   }
   .visual .shape{position:absolute;border-radius:50%;filter:blur(2px);}
+  .visual img{width:100%;height:100%;object-fit:cover;display:block;}
   .visual::before{content:'';position:absolute;inset:0;background:
-    repeating-linear-gradient(115deg,transparent 0 26px,rgba(255,255,255,.035) 26px 27px);}
-  .v1 .shape{width:60%;height:60%;top:15%;left:15%;background:conic-gradient(from 0deg,#E3A857,#8B5CF6,#3B82F6,#E3A857);animation:spin 14s linear infinite;opacity:.5;}
+    repeating-linear-gradient(115deg,transparent 0 26px,rgba(255,255,255,.035) 26px 27px);pointer-events:none;}
   .v2 .shape{width:46%;height:46%;top:27%;left:27%;background:linear-gradient(135deg,#8B5CF6,#E3A857);animation:pulse 5s ease-in-out infinite;}
   .v3 .shape{width:70%;height:70%;top:15%;left:15%;border-radius:38% 62% 60% 40%/42% 38% 62% 58%;background:linear-gradient(160deg,#3B82F6,#E3A857);animation:morph 9s ease-in-out infinite;opacity:.65;}
   .v4 .shape{width:2px;height:2px;box-shadow:0 0 0 1px rgba(255,255,255,.4);}
@@ -259,7 +259,7 @@
         <p>초·중·고 학생을 대상으로 전통 예절과 놀이를 함께 배우는 전례놀이 프로그램을 진행합니다.</p>
         <div class="tags"><span>전례놀이지도사 1급</span></div>
       </div>
-      <div class="visual v1 reveal-scale"><div class="shape"></div></div>
+      <div class="visual v1 reveal-scale"><img src="assets/program-01-jeonrye.png" alt="전례놀이 지도 — 한복을 입고 인사 예절을 배우는 아이들"></div>
     </div>
 
     <div class="program-panel">
