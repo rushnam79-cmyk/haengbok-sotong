@@ -128,15 +128,9 @@
   .visual::before{content:'';position:absolute;inset:0;background:
     repeating-linear-gradient(115deg,transparent 0 26px,rgba(255,255,255,.035) 26px 27px);pointer-events:none;}
   .v3 .shape{width:70%;height:70%;top:15%;left:15%;border-radius:38% 62% 60% 40%/42% 38% 62% 58%;background:linear-gradient(160deg,#3B82F6,#E3A857);animation:morph 9s ease-in-out infinite;opacity:.65;}
-  .v4 .shape{width:2px;height:2px;box-shadow:0 0 0 1px rgba(255,255,255,.4);}
-  .v4 .ring{position:absolute;border:1px solid rgba(227,168,87,.5);border-radius:50%;top:50%;left:50%;transform:translate(-50%,-50%);}
-  .v4 .ring1{width:40%;height:40%;animation:ringspin 10s linear infinite;}
-  .v4 .ring2{width:62%;height:62%;animation:ringspin 16s linear infinite reverse;border-color:rgba(139,92,246,.45);}
-  .v4 .ring3{width:84%;height:84%;animation:ringspin 22s linear infinite;border-color:rgba(59,130,246,.4);}
   @keyframes spin{to{transform:rotate(360deg);}}
   @keyframes pulse{0%,100%{transform:scale(1);opacity:.7;}50%{transform:scale(1.15);opacity:1;}}
   @keyframes morph{0%,100%{border-radius:38% 62% 60% 40%/42% 38% 62% 58%;}50%{border-radius:58% 42% 40% 60%/38% 58% 42% 62%;}}
-  @keyframes ringspin{to{transform:translate(-50%,-50%) rotate(360deg);}}
 
   /* credentials */
   .credentials{background:var(--bg);border-top:1px solid var(--line);}
@@ -282,7 +276,7 @@
     </div>
 
     <div class="program-panel">
-      <div class="visual v4 reveal-scale" style="order:1"><div class="ring ring1"></div><div class="ring ring2"></div><div class="ring ring3"></div></div>
+      <div class="visual v4 reveal-scale" style="order:1"><img src="assets/program-04-colortherapy.jpg" alt="퍼스널컬러 · 컬러테라피 — 캘리그라피·컬러 공예 작품 전시"></div>
       <div class="reveal" style="order:2">
         <div class="pnum">04</div>
         <h3>퍼스널컬러 · 컬러테라피</h3>
