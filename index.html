@@ -123,14 +123,10 @@
     background:radial-gradient(circle at 30% 30%,rgba(255,255,255,.08),transparent 60%),var(--bg-3);
     border:1px solid var(--line);
   }
-  .visual .shape{position:absolute;border-radius:50%;filter:blur(2px);}
   .visual img{width:100%;height:100%;object-fit:cover;display:block;}
   .visual::before{content:'';position:absolute;inset:0;background:
     repeating-linear-gradient(115deg,transparent 0 26px,rgba(255,255,255,.035) 26px 27px);pointer-events:none;}
-  .v3 .shape{width:70%;height:70%;top:15%;left:15%;border-radius:38% 62% 60% 40%/42% 38% 62% 58%;background:linear-gradient(160deg,#3B82F6,#E3A857);animation:morph 9s ease-in-out infinite;opacity:.65;}
-  @keyframes spin{to{transform:rotate(360deg);}}
   @keyframes pulse{0%,100%{transform:scale(1);opacity:.7;}50%{transform:scale(1.15);opacity:1;}}
-  @keyframes morph{0%,100%{border-radius:38% 62% 60% 40%/42% 38% 62% 58%;}50%{border-radius:58% 42% 40% 60%/38% 58% 42% 62%;}}
 
   /* credentials */
   .credentials{background:var(--bg);border-top:1px solid var(--line);}
@@ -272,7 +268,7 @@
         <p>도서관·도민대학·복지관에서 어르신 대상 웃음지도, 레크리에이션, 인지놀이 프로그램을 진행합니다.</p>
         <div class="tags"><span>실버웃음지도사 1급</span><span>레크레이션지도사 1급</span><span>인지놀이지도사 1급</span></div>
       </div>
-      <div class="visual v3 reveal-scale"><div class="shape"></div></div>
+      <div class="visual v3 reveal-scale"><img src="assets/program-03-silver.png" alt="실버 웃음·레크리에이션 — 어르신들이 둘러앉아 함께 웃는 모습"></div>
     </div>
 
     <div class="program-panel">
